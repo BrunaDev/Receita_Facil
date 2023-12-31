@@ -5,18 +5,16 @@ import { WebView } from 'react-native-webview';
 
 export function VideoView({ handleClose, videoUrl }){
     return(
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
             <TouchableOpacity style={styles.backButton} onPress={handleClose}>
                 <Feather name="arrow-left" size={24} color="#FFF" />
                 <Text style={styles.backText}>Voltar</Text>
             </TouchableOpacity>
-
-            <Text>testando</Text>
+            
             <WebView
                 style={styles.contentView}
-                videoUrl={{ uri: 'http://expo.dev' }}
+                source={{ uri: videoUrl }}
             />
-
         </SafeAreaView>
     )
 }
