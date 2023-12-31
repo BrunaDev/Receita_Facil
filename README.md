@@ -1,6 +1,14 @@
-# Receitas
-Este repositório representa um aplicativo de receitas desenvolvido em React Native, criado como parte do curso &lt;Insider/> React Native ministrado pelo Sujeito Programador.
+# Receita Fácil App
+Este repositório abriga o código-fonte de um aplicativo de receitas desenvolvido em React Native, concebido como parte do curso <Insider/> React Native ministrado pelo Sujeito Programador.
 
-<p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
+O aplicativo permite aos usuários buscar, visualizar, assistir e favoritar receitas disponíveis, contanto que estejam registradas no banco de dados (db.json).
+
+## 🖥️ Tecnologias
+
+Algumas das principais ferramentas utilizadas na construção do projeto:
+
+- [Expo](https://expo.io/)
+- [Moti](https://moti.fyi)
+- [Node.js](https://nodejs.org/en/)
+- [Java Script](https://www.javascript.com)
+- [React Native](https://reactnative.dev/)
