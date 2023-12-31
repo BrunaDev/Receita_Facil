@@ -17,7 +17,7 @@ Algumas das principais ferramentas utilizadas na construção do projeto:
 
 ## 📱 Como testar?
 A seguir, compartilhamos um link da Rocketseat que oferece uma explicação mais detalhada sobre a maneira correta de executar um arquivo utilizando o Expo ou o emulador do Android Studio
--[Link](https://react-native.rocketseat.dev/expo-managed/windows/)
+- [Link](https://react-native.rocketseat.dev/expo-managed/windows/)
 <p/>
 Para garantir o funcionamento do banco de dados (db.json), é fundamental iniciá-lo em um terminal, separado na pasta do projeto, através do comando: json-server --watch -d 180 --host seuIPV4 db.json.
 <p/>
